@@ -1,0 +1,12 @@
+# Robocopy synchronization config
+# Keep only one source active at a time.
+source: \\ccedap801.cdcprod.mfg.intel.com\E$\Production
+# source: \\ccedap801.cdcprod.mfg.intel.com\F$\Development
+# source: \\ccedap802.cdcprod.mfg.intel.com\E$\Production
+# source: \\ccedap802.cdcprod.mfg.intel.com\F$\Development
+# source: \\ccedap803.cdcprod.mfg.intel.com\E$\Production
+# source: \\ccedap803.cdcprod.mfg.intel.com\F$\Development
+
+# Keep only one destination active at a time.
+destination: E:\Production
+# destination: E:\Development
